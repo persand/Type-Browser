@@ -1,0 +1,74 @@
+/**
+ * IE is behaving badly and won't load the font unless it's specified here.
+ * Please fork me on GitHub and help fix this...
+ */
+
+@font-face {
+	font-family: 'Blackout 2am';
+	src: url('../fonts/blackout_2am-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Chunk';
+	src: url('../fonts/chunk-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Goudy Bookletter 1911';
+	src: url('../fonts/goudybookletter1911-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Junction 02';
+	src: url('../fonts/junction_02-webfont.eot');
+}
+
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../fonts/league_gothic-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Sorts Mill Goudy';
+	src: url('../fonts/oflgoudystmtt-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Sorts Mill Goudy Italic';
+	src: url('../fonts/oflgoudystmtt-italic-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Orbitron Black';
+	src: url('../fonts/orbitron_black-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Orbitron Bold';
+	src: url('../fonts/orbitron_bold-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Orbitron Light';
+	src: url('../fonts/orbitron_light-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Orbitron Medium';
+	src: url('../fonts/orbitron_medium-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Procionott';
+	src: url('../fonts/procionott-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Raleway Thin';
+	src: url('../fonts/raleway_thin-webfont.eot');
+}
+
+@font-face {
+	font-family: 'Sniglet';
+	src: url('../fonts/sniglet-webfont.eot');
+}

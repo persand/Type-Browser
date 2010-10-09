@@ -1,0 +1,17 @@
+/**
+ * Put your custom CSS here.
+ */
+
+/* Remove the line below to set a default font */
+/*
+@font-face {
+	font-family: '[FONTNAME]';
+	src: url('fonts/[FILENAME].eot');
+	src: local('☺'), url('fonts/[FILENAME].woff') format('woff'), url('fonts/[FILENAME].ttf') format('truetype'), url('fonts/[FILENAME].svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+  font-family: '[FONTNAME]';
+}
+/* */

@@ -1,0 +1,388 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background: #fff;
+  font-family: Georgia;
+}
+
+a {
+  background: none;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  background: none;
+	color: #666;
+}
+
+a:hover {
+	background: none;
+	color: #444;
+}
+
+a:active {
+  background: none;
+	color: #444;
+}
+
+span {
+  color: #333;
+}
+
+/**
+ * SETUP
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.display,
+.info {
+  margin-top: 100px;
+}
+
+/**
+ * START
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#start {
+  font: 12px/20px Arial, sans-serif;
+}
+
+#start p {
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+#keyboard-nav {
+  margin: 0 auto;
+  position: relative;
+  width: 264px;
+}
+
+#keyboard-nav div {
+  border: 1px solid #CCC;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  height: 80px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  width: 80px;
+}
+
+#start span {
+  font-size: 16px;
+  display: block;
+  padding: 25px 0 5px;
+}
+
+#start .prev-font {
+  left: 90px;
+  top: 0;
+}
+
+#start .next-display {
+  left: 180px;
+  top: 90px;
+}
+
+#start .next-font {
+  left: 90px;
+  top: 90px;
+}
+
+#start .prev-display {
+  left: 0;
+  top: 90px;
+}
+
+/**
+ * INFO
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#info {
+  font: 12px/20px Arial, sans-serif;
+  display: none;
+}
+
+#info h3 {
+  font-size: 14px;
+}
+
+#info p {
+  margin: 0 0 10px;
+}
+
+#info .grid_2,
+#info .grid_8 {
+  margin-bottom: 20px;
+}
+
+/**
+ * WEB FONT SPECIMEN (see also wfs.css)
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#wfs {
+  display: none;
+}
+
+#wfs .s div {
+  display: inline;
+}
+
+#header {
+  border: 0;
+  padding: 0;
+}
+
+#footer {
+  border: 0;
+}
+
+/**
+ * REGULAR DISPLAY
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#sizes {
+  display: none;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+#sizes p {
+  margin: 20px 10px 0 0;
+  white-space: nowrap;
+}
+
+#sizes .size {
+  font-family: Tahoma;
+  font-size: 12px;
+}
+
+/**
+ * CHARACTER MAP
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#character-map {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: 940px;
+}
+
+#character-map h1 {
+  margin-bottom: 18px;
+}
+
+#character-map ul {
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  list-style: none;
+  margin: 0 auto;
+  width: 915px;
+}
+
+#character-map li {
+  float: left;
+}
+
+#character-map span {
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  color: #000;
+  display: block;
+  font-size: 36px;
+  height: 50px;
+  line-height: 50px;
+  padding: 15px 0 5px 10px;
+  width: 50px;
+}
+
+/**
+ * CONTENT EDITABLE
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#lorem-ipsum {
+  display: none;
+  font-size: 14px;
+}
+
+/**
+ * CSS EXPERIMENTAL
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#css3-experimental {
+  display: none;
+}
+
+#css3-experimental h1 {
+  margin: 0 0 40px;
+}
+
+#css3-experimental .grid_16 {
+  overflow: hidden;
+}
+
+#css3-experimental h3 {
+  font-family: Verdana, sans-serif;
+  margin: 0 0 20px;
+}
+
+#css3-experimental dl {
+  margin: 0 0 40px 20px;
+}
+
+#css3-experimental dt {
+  margin: 0 0 10px;
+}
+
+#css3-experimental dd {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 20px 20px;
+  /*white-space: nowrap;*/
+}
+
+/**
+ * Text shadow
+ */
+
+.text-shadow-2px-aaa {
+  text-shadow: 2px 2px 2px #AAA;
+}
+
+.text-shadow-4px-bbb {
+  text-shadow: 4px 4px 4px #BBB;
+}
+
+.text-shadow-6px-ccc {
+  text-shadow: 6px 6px 6px #CCC;
+}
+
+.text-shadow-8px-ddd {
+  text-shadow: 8px 8px 8px #DDD;
+}
+
+.text-shadow-inverted {
+  background: #CCC;
+  color: #555;
+  padding: 5px;
+  text-shadow: 0 1px 1px #FFF;
+}
+
+/**
+ * -webkit-font-smoothing
+ */
+
+.webkit-font-smoothing-none {
+  -webkit-font-smoothing: none;
+}
+
+.webkit-font-smoothing-subpixel-antialiased {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.webkit-font-smoothing-antialiased {
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * -webkit-text-stroke
+ */
+
+.webkit-text-stroke-black {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
+
+/**
+ * NAV
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#nav {
+	background: #FFF;
+	background: rgba(255, 255, 255, 0.7);
+	border-bottom: 3px solid #EEE;
+	color: #000;
+	font: 12px/20px Arial, sans-serif;
+	height: 20px;
+	overflow: hidden;
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#nav h2 {
+  color: #000;
+  float: left;
+  font: bold 14px/20px Arial, sans-serif;
+  margin: 0 0 0 20px;
+}
+
+#nav-display,
+#nav-fonts {
+  float: left;
+  margin: -2px 0 0 20px;
+}
+
+#nav select {
+  border: 1px solid #CCC;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: 12px/20px Arial, sans-serif;
+  padding: 4px;
+}
+
+#next-font,
+#prev-font,
+#next-display,
+#prev-display {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#next-font,
+#next-display {
+  padding-left: 0;
+}
+
+#nav-info {
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+#nav-info ul {
+  list-style: none;
+  margin: 0;
+}
+
+#nav-info li {
+  float: left;
+}
+
+#nav-info a {
+  background: url(../img/sprite.png) no-repeat;
+  border: 0;
+  display: block;
+  height: 20px;
+  margin: 0 0 0 10px;
+  text-indent: -9999px;
+  width: 20px;
+}
+
+#show-info {
+  
+}
