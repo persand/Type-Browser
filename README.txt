@@ -17,6 +17,12 @@ Please fork me on GitHub and help make it better.
 
 -----------------------------------------------------------------------------
 
+DEMO
+
+http://labs.helloper.net/typebrowser
+
+-----------------------------------------------------------------------------
+
 USAGE
 
 Convert your fonts to the various web formats using FontSquirrels @font-face 
