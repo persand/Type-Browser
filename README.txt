@@ -51,7 +51,8 @@ LICENSE
 
 Type Browser
 Creative Commons By 3.0
-http://creativecommons.org/licenses/by/3.0/us/
+MIT
+GPL v2
 
 Fonts
 Open Font License
