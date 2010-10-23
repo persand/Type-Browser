@@ -44,7 +44,7 @@ $(document).ready(function() {
 	  nextDisplay();
 	});
 	
-	$('#show-info').click(function(){
+	$('.show-info').click(function(){
 	  showInfo();
 	  return false;
 	});
