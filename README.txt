@@ -1,7 +1,7 @@
 Type Browser
 by Per Sandström
 
-http://helloper.net/typebrowser
+http://www.helloper.com/typebrowser
 http://github.com/persand/Type-Browser
 
 -----------------------------------------------------------------------------
@@ -19,7 +19,7 @@ Please fork me on GitHub and help make it better.
 
 DEMO
 
-http://labs.helloper.net/typebrowser
+http://labs.helloper.com/typebrowser
 
 -----------------------------------------------------------------------------
 
